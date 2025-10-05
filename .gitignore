@@ -5,3 +5,6 @@ runs/
 test/
 
 model/
+datesets/
+
+icon.yaml

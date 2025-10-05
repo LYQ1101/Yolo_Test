@@ -1,4 +1,4 @@
 from ultralytics import YOLO
 
-model = YOLO("yolo12n.pt",task="detect")
-results = model(source="test/2.jpg",save=True)
+model = YOLO("./model/yolo12l.pt",task="detect")
+results = model(source="screen",save=True)
