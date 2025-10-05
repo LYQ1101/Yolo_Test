@@ -1,0 +1,16 @@
+# icon.yaml
+
+# path: 指向 datesets 文件夹下的 icon 文件夹
+path: datesets/icon 
+
+train: images/train
+val: images/val
+
+# 类别数量 (nc) 依然保持 2，因为它代表你有两种不同的目标要检测。
+# (nc 必须是 names 列表中的项目总数)
+nc: 2
+
+# 类别名称：将键改为标签文件中的实际数字
+names:
+  0: poki 
+  1: hongxia
