@@ -8,9 +8,8 @@ val: images/val
 
 # 类别数量 (nc) 依然保持 2，因为它代表你有两种不同的目标要检测。
 # (nc 必须是 names 列表中的项目总数)
-nc: 2
+nc: 1
 
 # 类别名称：将键改为标签文件中的实际数字
 names:
-  0: poki 
-  1: hongxia
+  0: huishouzhan
